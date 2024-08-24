@@ -11,7 +11,7 @@ package br.edu.ifpr.bean;
 public class Produto {
     private int id;
     private String descricao;
-    private Categoria categoria_id;
+    private Categoria categoria;
     
     
 
@@ -31,13 +31,14 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public Categoria getCategoria_id() {
-        return categoria_id;
+    public Categoria getCategoria() {
+        return categoria;
     }
 
-    public void setCategoria_id(Categoria categoria_id) {
-        this.categoria_id = categoria_id;
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
+
     
     
 }
